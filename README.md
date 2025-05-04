@@ -1,4 +1,5 @@
 # Basic Syntax Highlighting Examples
+Here is the general gist for adding simple syntax highlighting to my "Go To" text editors.
 
 ## NEOVIM
 ![NeoVimExample](./assets/vim-default.png)
@@ -50,3 +51,6 @@ it. Then go to your `init.el` file and put `(load "~/emacs.d/lox-mode.el")` some
 
 (provide 'loxlang-mode)
 ```
+
+## VSCODE (TODO)
+Have not yet tried to figure this out, but would like to.
