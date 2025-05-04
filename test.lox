@@ -1,0 +1,17 @@
+/* Here is a 
+ * multi-line comment 
+ */
+class Person {
+	init(name) { this.name = name; }
+}
+
+/* My COmmennt here */
+
+fun fact(n) {
+	if (n <=1) {
+		return 1;
+	}
+}
+
+var one_twenty = fact(5);
+print(one_twenty);
