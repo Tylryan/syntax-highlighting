@@ -9,9 +9,11 @@ class Person {
 /* My comment here */
 
 fun fact(n) {
-	if (n <=1) {
+	if (n <= 1) {
 		return 1;
 	}
+
+	return n * fact(n - 1);
 }
 
 var one_twenty = fact(5);

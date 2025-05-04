@@ -1,8 +1,8 @@
 # Basic Syntax Highlighting Examples
 Here is the general gist for adding simple syntax highlighting to my "Go To" text editors.
 
-## NEOVIM
-![NeoVimExample](./assets/vim-default.png)
+## (Neo)Vim
+![NeoVimExample](./assets/neovim.png)
 
 Create a file `~/.config/nvim/syntax/lox.vim` and put the text below in it.
 > In order to activate the new syntax, run `:set syntax=lox`.
