@@ -6,7 +6,7 @@ syntax region LoxComment start="/\*" end="\*/" contains=NONE
 " \< means "start of a word"
 " \ze means to match up to this point, but do not highlight
 syntax match LoxFun /\<\w\+\>\ze\s*(/
-syntax keyword LoxKeyword fun return var if else class
+syntax keyword LoxKeyword fun return var if else class this
 
 highlight link LoxKeyword Keyword
 highlight link LoxString String
